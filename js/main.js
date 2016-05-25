@@ -1,9 +1,9 @@
 $(document).ready(function () {
 
   //Régler taille du header
-  $('header').css('height', $(window).height());
+  $('#accueil header').css('height', $(window).height());
   $(window).resize(function(){
-    $('header').css('height', $(window).height());
+    $('#accueil header').css('height', $(window).height());
   });
   //Obscurcir header
   $(window).scroll(function () {
