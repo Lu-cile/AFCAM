@@ -1,0 +1,31 @@
+/* Actions */
+
+#actions {
+  background-color: #FFF;
+}
+/*** CITATION ***/
+
+#citation {
+  color: #FFF;
+  height: 248px;
+}
+#text {
+  height: 100%;
+}
+#citation #text, #portrait{
+  background-color: #444561;
+}
+/*** Partenaires ***/
+
+#partenaires {
+  background-color: #FFF;
+}
+#partenaires h3 {
+  color: #000;
+}
+#partenaires h3:hover {
+  text-decoration: none;
+}
+#partenaires #bnp {
+  filter: grayscale(100%);
+}

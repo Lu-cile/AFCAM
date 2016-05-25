@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AFCAM - Île de France</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link href="css/main.css" rel=stylesheet>
+  <link href="css/accueil.css" rel=stylesheet>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="js/fb_api.js"></script>
+  <script src="js/main.js"></script>
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div id="fb-root"></div>
+  <!-- HEADER -->
+  <header>
+    <div id="blackOverlay"></div>
+    <div id="banner">
+      <img src="img/banner.png" alt="banner" />
+    </div>
+    <div id="logo">
+      <img src="img/logoAfcamVector.png" alt="logo" />
+    </div>
+    <div id="navContainer">
+      <nav class="navbar hidden-sm hidden-xs">
+        <ul class="list-inline">
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Qui sommes-nous ?</a></li>
+          <li><a href="#">Nos actions</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="smallMenu" class="visible-sm visible-xs">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="text-center">
+      <h1>AFCAM ÎLE DE FRANCE</h1>
+      <button type="button" name="button">En savoir plus</button>
+    </div>
+    <div class="text-center">
+      <i class="fa fa-angle-double-down fa-3x" name="content" aria-hidden="true"></i>
+    </div>
+  </header>
+  <a href="#" name="content"></a>
+      <!-- Actions -->
+      <section id="actions">
+        <div class="container">
+          <div id="action1" class="action col-sm-4">
+            <h3>Action</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </div>
+          <div id="action2" class="action col-sm-4">
+            <h3>Action</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </div>
+          <div id="action3" class="action col-sm-4">
+            <h3>Action</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Citation -->
+      <section id="citation">
+        <div id="portrait" class="col-sm-6">
+          <img src="img/portrait.png" alt="portrait" />
+        </div>
+        <div id="text" class="col-sm-6">
+          <h3>M. DUPONT, Président de l'AFCAM Île-de-France</h3>
+          <p>
+            « Ut enim benefici liberalesque sumus, non ut exigamus gratiam (neque enim beneficium faeneramur sed natura propensi ad liberalitatem sumus), sic amicitiam non spe mercedis adducti sed quod omnis eius fructus in ipso amore inest, expetendam putamus. »
+          </p>
+        </div>
+      </section>
+
+      <!-- Partenaires -->
+      <section id="partenaires">
+        <div class="container">
+          <h3 class="text-center">Nos partenaires</h3>
+          <a href="#" target="_blank"><img id="bnp" src="img/bnp.png" alt="bnp" /></a>
+          <a href="#" target="_blank"><img id="bnp" src="img/bnp.png" alt="bnp" /></a>
+          <a href="#" target="_blank"><img id="bnp" src="img/bnp.png" alt="bnp" /></a>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="container">
+          <div id="contact">
+            <h4>Pour nous contacter :</h4>
+            <ul>
+              <li>Mail : entreprise@gmail.com</li>
+              <li>Téléphone : 09.09.09.09.65 </li>
+              <li>Adresse : 1 rue des pétunias 71000 Paris</li>
+            </ul>
+          </div>
+          <ul class="list-inline text-center">
+            <li><a href="#">Mentions légales</a></li> -
+            <li><a href="#">Statut</a></li> -
+            <li><a href="#">Règlement intérieur</a></li> -
+            <li><a href="#">Crédits</a></li>
+          </ul>
+        </div>
+      </footer>
+
+  <!-- SCRIPTS   -->
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>
