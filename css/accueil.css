@@ -1,7 +1,7 @@
 
 /* Hero */
 
-#blackOverlay {
+/*#blackOverlay {
   background-color: #000;
   opacity: 0.0;
   position: absolute;
@@ -21,14 +21,27 @@
   height: auto;
 }
 
-header h1 {
+/* Bannière */
+
+#banner {
+  color: #ffffff;
+  background: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Texte bannière */
+#bannerText {
+
+}
+
+#banner h1 {
   font-size: 2.5em;
-  padding-top: 22%;
-  text-align: center;
   color: #FFF;
 }
 
-header button {
+#banner button {
   background: none;
   border: 1px solid #FFF;
   text-transform: uppercase;
@@ -39,6 +52,7 @@ header button {
 
 .fa-angle-double-down {
   position: absolute;
+  left: 49%;
   bottom: 30px;
   z-index: 11;
   opacity: 1;
