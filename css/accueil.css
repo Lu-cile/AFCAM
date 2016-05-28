@@ -1,5 +1,5 @@
-
 /* Hero */
+
 
 /*#blackOverlay {
   background-color: #000;
@@ -32,15 +32,14 @@
 }
 
 /* Texte bannière */
+
 #bannerText {
-
+  margin-top: 300px;
 }
-
 #banner h1 {
   font-size: 2.5em;
   color: #FFF;
 }
-
 #banner button {
   background: none;
   border: 1px solid #FFF;
@@ -49,7 +48,6 @@
   color: #FFF;
   padding: 10px 20px;
 }
-
 .fa-angle-double-down {
   position: absolute;
   left: 49%;
@@ -62,12 +60,12 @@
   animation: glow 4s infinite;
 }
 
-
 /* Actions */
 
 #actions {
   background-color: #FFF;
 }
+
 /*** CITATION ***/
 
 #citation {
@@ -77,9 +75,10 @@
 #text {
   height: 100%;
 }
-#citation #text, #portrait{
+#citation #text, #portrait {
   background-color: #444561;
 }
+
 /*** Partenaires ***/
 
 #partenaires {
