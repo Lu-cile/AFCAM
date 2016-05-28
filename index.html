@@ -47,9 +47,11 @@
       </div>
     </header>
     <div id="bannerText" class="text-center">
-      <h1>AFCAM ÎLE DE FRANCE</h1>
-      <button type="button" name="button">En savoir plus</button>
-      <i class="fa fa-angle-double-down fa-3x" name="content" aria-hidden="true"></i>
+      <div class="container">
+        <h1>AFCAM ÎLE DE FRANCE</h1>
+        <button type="button" name="button">En savoir plus</button>
+        <i class="fa fa-angle-double-down fa-3x" name="content" aria-hidden="true"></i>
+      </div>
     </div>
   </div>
   <a href="#" name="content"></a>
@@ -83,14 +85,16 @@
 
   <!-- Citation -->
   <section id="citation">
-    <div id="portrait" class="col-sm-6">
-      <img src="img/portrait.png" alt="portrait" />
-    </div>
-    <div id="text" class="col-sm-6">
-      <h3>M. DUPONT, Président de l'AFCAM Île-de-France</h3>
-      <p>
-        « Ut enim benefici liberalesque sumus, non ut exigamus gratiam (neque enim beneficium faeneramur sed natura propensi ad liberalitatem sumus), sic amicitiam non spe mercedis adducti sed quod omnis eius fructus in ipso amore inest, expetendam putamus. »
-      </p>
+    <div class="container">
+      <div id="portrait" class="col-sm-6 text-center">
+        <img src="img/portrait.png" alt="portrait" />
+      </div>
+      <div id="text" class="col-sm-6">
+        <h3>M. DUPONT, Président de l'AFCAM Île-de-France</h3>
+        <p>
+          « Ut enim benefici liberalesque sumus, non ut exigamus gratiam (neque enim beneficium faeneramur sed natura propensi ad liberalitatem sumus), sic amicitiam non spe mercedis adducti sed quod omnis eius fructus in ipso amore inest, expetendam putamus. »
+        </p>
+      </div>
     </div>
   </section>
 
@@ -98,9 +102,19 @@
   <section id="partenaires">
     <div class="container">
       <h3 class="text-center">Nos partenaires</h3>
-      <a href="#" target="_blank"><img id="bnp" src="img/bnp.png" alt="bnp" /></a>
-      <a href="#" target="_blank"><img id="bnp" src="img/bnp.png" alt="bnp" /></a>
-      <a href="#" target="_blank"><img id="bnp" src="img/bnp.png" alt="bnp" /></a>
+      <div class="row row-eq-height">
+        <div class="partenaires-arrow col-sm-1">
+          <i class="fa fa-angle-left" aria-hidden="true"></i>
+        </div>
+        <div class="col-sm-10">
+          <a href="#" target="_blank"><img id="bnp" src="img/bnp.png" alt="bnp" /></a>
+          <a href="#" target="_blank"><img id="bnp" src="img/bnp.png" alt="bnp" /></a>
+          <a href="#" target="_blank"><img id="bnp" src="img/bnp.png" alt="bnp" /></a>
+        </div>
+        <div class="partenaires-arrow col-sm-1">
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+      </div>
     </div>
   </section>
 

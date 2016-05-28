@@ -21,7 +21,7 @@
   height: auto;
 }
 
-/* Bannière */
+/* BANNIERE */
 
 #banner {
   color: #ffffff;
@@ -34,7 +34,7 @@
 /* Texte bannière */
 
 #bannerText {
-  margin-top: 300px;
+  margin-top: 18%;
 }
 #banner h1 {
   font-size: 2.5em;
@@ -60,7 +60,7 @@
   animation: glow 4s infinite;
 }
 
-/* Actions */
+/*** ACTIONS ***/
 
 #actions {
   background-color: #FFF;
@@ -70,16 +70,14 @@
 
 #citation {
   color: #FFF;
-  height: 248px;
+  background-color: #444561;
 }
 #text {
   height: 100%;
 }
-#citation #text, #portrait {
-  background-color: #444561;
-}
 
-/*** Partenaires ***/
+
+/*** PARTENAIRES ***/
 
 #partenaires {
   background-color: #FFF;
@@ -87,8 +85,8 @@
 #partenaires h3 {
   color: #000;
 }
-#partenaires h3:hover {
-  text-decoration: none;
+.partenaires-arrow i {
+  font-size: 50px;
 }
 #partenaires #bnp {
   filter: grayscale(100%);
