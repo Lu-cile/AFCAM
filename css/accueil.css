@@ -1,5 +1,5 @@
-
 /* Hero */
+
 
 /*#blackOverlay {
   background-color: #000;
@@ -21,7 +21,7 @@
   height: auto;
 }
 
-/* Bannière */
+/* BANNIERE */
 
 #banner {
   color: #ffffff;
@@ -32,15 +32,14 @@
 }
 
 /* Texte bannière */
+
 #bannerText {
-
+  margin-top: 18%;
 }
-
 #banner h1 {
   font-size: 2.5em;
   color: #FFF;
 }
-
 #banner button {
   background: none;
   border: 1px solid #FFF;
@@ -49,7 +48,6 @@
   color: #FFF;
   padding: 10px 20px;
 }
-
 .fa-angle-double-down {
   position: absolute;
   left: 49%;
@@ -62,25 +60,27 @@
   animation: glow 4s infinite;
 }
 
-
-/* Actions */
+/*** ACTIONS ***/
 
 #actions {
   background-color: #FFF;
 }
+
 /*** CITATION ***/
 
 #citation {
   color: #FFF;
-  height: 248px;
-}
-#text {
-  height: 100%;
-}
-#citation #text, #portrait{
   background-color: #444561;
 }
-/*** Partenaires ***/
+#text {
+  margin-top: 5%;
+  margin-bottom: 30px;
+}
+#citation #text h3 {
+  margin-top: 0px;
+}
+
+/*** PARTENAIRES ***/
 
 #partenaires {
   background-color: #FFF;
@@ -88,9 +88,11 @@
 #partenaires h3 {
   color: #000;
 }
-#partenaires h3:hover {
-  text-decoration: none;
+.partenaires-arrow {
+  font-size: 50px;
+  display: flex;
 }
-#partenaires #bnp {
-  filter: grayscale(100%);
+.partenaires-arrow i {
+  margin: auto;
+  cursor: pointer;
 }
