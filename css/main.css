@@ -1,4 +1,10 @@
 /* CSS commun aux pages */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
